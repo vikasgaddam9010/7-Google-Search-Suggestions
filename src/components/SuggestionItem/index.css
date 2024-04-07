@@ -1,0 +1,37 @@
+/* Write your CSS here */
+li {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 40px;
+}
+.list {
+  padding-left: 0px;
+}
+.search-box {
+  display: flex;
+  flex-direction: row;
+}
+.search-icon {
+  height: 20px;
+  margin-right: 2px;
+}
+.search-and-list {
+  padding: 10px;
+  border-radius: 25px;
+  width: 100%;
+}
+.width {
+  border: 0px;
+  width: 100%;
+}
+button {
+  background-color: white;
+  border: 0px solid;
+}
+img {
+  width: 30px;
+  height: 30px;
+}
